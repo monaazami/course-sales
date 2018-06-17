@@ -41,7 +41,7 @@ h1{
 #courses p{
   display: block;
   padding: 20px 20px;
-  background-color: #C5EFF7;
+  background-color: #95EFFF;
   color: #000;
   position: relative;
   cursor: pointer;
@@ -64,7 +64,7 @@ h1{
 
 #courses p.active{
   color:#fff;
-  background-color:#446CB3;
+  background-color:#061C41;
 }
 
 #courses p.active b{

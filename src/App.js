@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Coursesales from "./course-sales.js";
+import TicTac from "./TicTac";
+import Gallery from "./Gallery";
 import './App.css';
 
 class App extends Component {
@@ -16,9 +18,10 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Course sales React app!</h1>
-        </header>
-        
-        <Coursesales items={courses}/>
+        </header> 
+        <Coursesales items={courses}/> 
+        <Gallery />
+        <TicTac />
       </div>
     );
   }

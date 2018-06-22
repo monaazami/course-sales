@@ -77,3 +77,56 @@ h1{
   cursor: default !important;
   padding-top: 10px !important;
 }
+table{
+  margin:auto;
+}
+td{
+  width: 200px;
+  height: 200px;
+}
+.middle{
+  border-right: 3px solid;
+  border-left: 3px solid;
+}
+.second{
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+}
+.tic{
+  text-align: center;
+  font-size: 36px;
+  color:blue;
+  background-color: yellow;
+  padding: 20px;
+  margin-top: 140px;
+}
+.gallery{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color:white;
+  
+}
+.one{
+  background-color: blue;
+  width: 400px;
+  float: left;
+}
+.two{  
+  background-color: #5F0026;
+  width: 400px;
+  float: left;
+}
+img{
+  width:30% ;
+  margin: 1.66%
+}
+.header{
+  color:#454545;
+  width: 30%;
+  text-align: left;
+  font-size: 50px;
+  padding:30px 0 10px 0;
+  border-bottom: 2px solid #AEAEAE;
+  margin-left: 32px;
+  font-weight: 800;
+}
